@@ -1,4 +1,4 @@
-# csprclick-react template
+# csprclick-react app demo
 
 ## Install
 
