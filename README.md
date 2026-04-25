@@ -10,7 +10,8 @@ Please type
 npm start
 ```
 
-## STEPS to sign message.
+<details>
+<summary><strong>STEPS to sign message.</strong></summary>
 
 STEP1
 ![STEP1](./public/step1.png)
@@ -23,3 +24,5 @@ STEP3
 
 RESULT
 ![RESULT](./public/step4.png)
+
+</details>
