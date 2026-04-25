@@ -8,7 +8,7 @@ import App from './App';
 const clickOptions: CsprClickInitOptions = {
   appName: 'CSPR.app',
   contentMode: CONTENT_MODE.IFRAME,
-  providers: ['casper-wallet', 'ledger', 'metamask-snap'],
+  providers: ['casper-wallet', 'ledger', 'metamask-snap', 'csprclick-w3a-google'],
   appId: 'csprclick-template'
 };
 

@@ -4,7 +4,6 @@ import { useClickRef, ThemeModeType } from '@make-software/csprclick-ui';
 import ClickTopBar from './components/ClickTopBar';
 import { LandingBrief, SignedInBrief } from './components/GettingStarted';
 import Container from './components/container';
-import { Welcome } from './components/GettingStarted/components';
 import { AppTheme } from './settings/theme';
 
 const GettingStartedContainer = styled.div(({ theme }) =>
@@ -44,7 +43,6 @@ const App = () => {
         }
       />
       <Container>
-        <Welcome />
         <GettingStartedContainer id={'getting-started'}>
           {activeAccount ? <SignedInBrief /> : <LandingBrief />}
         </GettingStartedContainer>
